@@ -27,13 +27,13 @@ body *{
 
 h1, h2, h3, h4, h5, h6, strong{
     color: var(--mainText);
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Rockwell', sans-serif;
     font-weight: 500;
 }
 
 p, li, span, label,a, input, textarea {
     color: var(--secondaryText);
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Consolas', monospace;
 }
 
 a{
@@ -87,6 +87,7 @@ h6 { font-size: 16px;}
     -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
     box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 
+    margin-top: 2em;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
